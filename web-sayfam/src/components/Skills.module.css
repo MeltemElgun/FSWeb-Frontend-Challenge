@@ -1,0 +1,110 @@
+.box {
+  width: 100%;
+}
+
+.skillText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.01em;
+  color: #0a0a14;
+  padding: 5rem 41rem 0 41.3rem;
+}
+.skillBoxes {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+  padding: 3.5rem 16rem 8rem 16.2rem;
+}
+.js {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+.react,
+.redux,
+.node,
+.vscode,
+.figma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.6px;
+  gap: 10px;
+}
+.skillBoxes p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #777777;
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .skillBoxes {
+    margin: 0;
+    padding: 2.5rem 4rem 8rem 4rem;
+  }
+  .skillText {
+    padding: 2rem 0rem 4rem 0rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skillBoxes {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 2.5rem 4rem 8rem 4.2rem;
+  }
+  .skillText {
+    padding: 2.5rem 0rem 1rem 0rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .skillBoxes {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 1.5rem 4rem 4rem 4.2rem;
+  }
+  .skillText {
+    padding: 2.5rem 0rem 1rem 0rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .skillBoxes {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 1.5rem 4rem 4rem 4.2rem;
+  }
+  .skillText {
+    padding: 2.5rem 0rem 1rem 0rem;
+    text-align: center;
+  }
+}
