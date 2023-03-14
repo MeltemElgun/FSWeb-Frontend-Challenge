@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Movies",
+      "description": "Bu projede, küçük bir film veritabanı içeren bir web uygulaması yapıldı. Hem mevcut tüm state ve action oluşturucuları kullanıldı, hem de sıfırdan reducer/redux pairing'leri oluşturuldu.",
+      "relative": ["react", "redux", "router", "axios", "versel"],
+      "img": "resim1.png"
+    },
+    {
+      "id": 2,
+      "name": "Minnet günlüğü",
+      "description": "Bu projede, `redux` özellikleri, `redux thunk` middleware'i ve `localStorage` ile bir Minnet günlüğü yapıldı.",
+      "relative": [
+        "react",
+        "router",
+        "redux",
+        "axios",
+        "versel",
+        "date-fns",
+        "react-hook-form",
+        "react-toastify",
+        "redux-logger",
+        "redux-thunk"
+      ],
+      "img": "resim2.png"
+    }
+  ]
+}

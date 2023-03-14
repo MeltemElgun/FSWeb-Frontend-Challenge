@@ -24,14 +24,14 @@
   padding-top: 2.96rem;
 }
 
-.cardB {
+/* .cardB {
   display: inline-block;
   background: #d9f6f1;
   border-radius: 12px;
   max-width: 31.25rem;
   padding-top: 2.95rem;
   padding-left: 2.8rem;
-}
+} */
 .head {
   font-size: 29px;
   line-height: 39px;
@@ -48,14 +48,14 @@
   padding-bottom: 1.7rem;
   max-width: 23rem;
 }
-.textB {
+/* .textB {
   font-family: "Inter";
   font-size: 16px;
   line-height: 150%;
   color: #000000;
   padding-bottom: 1.7rem;
   max-width: 23rem;
-}
+} */
 .spanA {
   display: flex;
   flex-direction: row;
@@ -66,7 +66,7 @@
   padding-bottom: 2.2rem;
   padding-left: 0.4rem;
 }
-.spanB {
+/* .spanB {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -75,7 +75,7 @@
   flex-wrap: wrap;
   padding-bottom: 1.8rem;
   padding-left: 0.42rem;
-}
+} */
 .cards span {
   display: flex;
   flex-direction: row;
