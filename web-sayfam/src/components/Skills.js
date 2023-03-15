@@ -2,10 +2,10 @@ import React from "react";
 import skills from "./Skills.module.css";
 export default function Skills() {
   return (
-    <div className={skills.box}>
+    <main className={skills.box}>
       <p className={skills.skillText}> Skills</p>
 
-      <div className={skills.skillBoxes}>
+      <select className={skills.skillBoxes}>
         <div className={skills.js}>
           <img src="js.svg" />
           <p>JAVASCRIPT</p>
@@ -30,7 +30,7 @@ export default function Skills() {
           <img src="figma.svg" />
           <p>FİGMA</p>
         </div>
-      </div>
-    </div>
+      </select>
+    </main>
   );
 }
