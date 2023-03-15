@@ -5,7 +5,7 @@ export default function Skills() {
     <main className={skills.box}>
       <p className={skills.skillText}> Skills</p>
 
-      <select className={skills.skillBoxes}>
+      <div className={skills.skillBoxes}>
         <div className={skills.js}>
           <img src="js.svg" />
           <p>JAVASCRIPT</p>
@@ -30,7 +30,7 @@ export default function Skills() {
           <img src="figma.svg" />
           <p>FİGMA</p>
         </div>
-      </select>
+      </div>
     </main>
   );
 }

@@ -13,25 +13,30 @@ export default function Projects(props) {
   } = props.pr;
   console.log(className);
   return (
-    <main className={project.cardA} style={{ background: ` ${background}` }}>
-      <p className={project.head}>{name}</p>
-      <p className={project.textA}>{description}</p>
-      <section className={project.spanA}>
-        {relative.map((i) => (
-          <span key={i}>{i}</span>
-        ))}
+    <main>
+      <section
+        className={project.cardA}
+        style={{ background: ` ${background}` }}
+      >
+        <p className={project.head}>{name}</p>
+        <p className={project.textA}>{description}</p>
+        <div className={project.spanA}>
+          {relative.map((i) => (
+            <span key={i}>{i}</span>
+          ))}
+        </div>
+        <nav>
+          <a className={project.a} href={`${github}`} target="_blank">
+            View on Github
+          </a>
+          <a href={`${versel}`} target="_blank">
+            Go to app ➔
+          </a>
+        </nav>
+        <div style={{ paddingTop: ` ${className}` }}>
+          <img className={project.img} src={` ${img}`} />
+        </div>
       </section>
-      <nav>
-        <a className={project.a} href={`${github}`} target="_blank">
-          View on Github
-        </a>
-        <a href={`${versel}`} target="_blank">
-          Go to app ➔
-        </a>
-      </nav>
-      <figure style={{ paddingTop: ` ${className}` }}>
-        <img className={project.img} src={` ${img}`} />
-      </figure>
     </main>
   );
 }

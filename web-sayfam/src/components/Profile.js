@@ -2,9 +2,9 @@ import React from "react";
 import profile from "./Profile.module.css";
 export default function Profile() {
   return (
-    <div className={profile.box}>
+    <main className={profile.box}>
       <p className={profile.p}>Profile</p>
-      <main className={profile.contents}>
+      <div className={profile.contents}>
         <section className={profile.content}>
           <div className={profile.card}>
             <p className={profile.text}>Basic Information</p>{" "}
@@ -39,7 +39,7 @@ export default function Profile() {
             </p>
           </div>
         </section>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }

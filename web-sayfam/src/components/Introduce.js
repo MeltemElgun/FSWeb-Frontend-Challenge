@@ -38,9 +38,9 @@ export default function Introduce() {
             </p>
           </div>
         </div>
-        <figure className={introduce.Img}>
+        <div className={introduce.Img}>
           <img className={introduce.img} src="Img.png" alt="Img" />
-        </figure>
+        </div>
       </div>
     </header>
   );
