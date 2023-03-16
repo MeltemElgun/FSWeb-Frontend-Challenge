@@ -8,7 +8,7 @@ export default function Projects(props) {
     img,
     className,
     github,
-    versel,
+    vercel,
     background,
   } = props.pr;
   console.log(className);
@@ -29,7 +29,7 @@ export default function Projects(props) {
           <a className={project.a} href={`${github}`} target="_blank">
             View on Github
           </a>
-          <a href={`${versel}`} target="_blank">
+          <a href={`${vercel}`} target="_blank">
             Go to app ➔
           </a>
         </nav>
