@@ -2,7 +2,7 @@ import React from "react";
 import skills from "./Skills.module.css";
 export default function Skills() {
   return (
-    <div className={skills.box}>
+    <main className={skills.box}>
       <p className={skills.skillText}> Skills</p>
 
       <div className={skills.skillBoxes}>
@@ -31,6 +31,6 @@ export default function Skills() {
           <p>FİGMA</p>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

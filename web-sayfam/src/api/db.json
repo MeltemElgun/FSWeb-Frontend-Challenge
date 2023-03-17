@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Movies",
+      "description": "Bu projede, küçük bir film veritabanı içeren bir web uygulaması yapıldı. Hem mevcut tüm state ve action oluşturucuları kullanıldı, hem de sıfırdan reducer/redux pairing'leri oluşturuldu.",
+      "relative": ["react", "redux", "router", "axios", "vercel"],
+      "img": "img-1.png",
+      "className": "3.8rem",
+      "github": "https://github.com/MeltemElgun/fsweb-s10g2-redux-filmler",
+      "vercel": "https://fsweb-s10g2-redux-filmler-git-main-meltemelgun.vercel.app/movies",
+      "background": "#ddeefe"
+    },
+    {
+      "id": 2,
+      "name": "Minnet günlügü",
+      "description": "Bu projede, `redux` özellikleri, `redux thunk` middleware'i ve `localStorage` ile bir Minnet günlüğü yapıldı.",
+      "relative": [
+        "react",
+        "router",
+        "redux",
+        "axios",
+        "vercel",
+        "date-fns",
+        "react-hook-form",
+        "react-toastify",
+        "redux-logger",
+        "redux-thunk"
+      ],
+      "img": "img-2.png",
+      "className": "2.8rem",
+      "github": "https://github.com/MeltemElgun/fsweb-s10-challenge",
+      "vercel": "https://fsweb-s10-challenge-tau.vercel.app/",
+      "background": "#d9f6f1"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import React from "react";
 import footer from "./Footer.module.css";
 export default function Footer() {
   return (
-    <div className={footer.box}>
+    <footer className={footer.box}>
       <div className={footer.content}>
         <p>Let’s work together on your next product.</p>
         <nav>
@@ -32,6 +32,6 @@ export default function Footer() {
           </a>
         </nav>
       </div>
-    </div>
+    </footer>
   );
 }

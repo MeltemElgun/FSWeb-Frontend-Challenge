@@ -1,37 +1,15 @@
-.box {
-  width: 100%;
-}
-.p {
-  font-family: "Inter";
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.01em;
-  color: #0a0a14;
-  padding: 5.5rem 40rem 2.25rem 40.9rem;
-}
-
-.cards {
-  margin: 0rem 11.8rem;
-  display: flex;
-  gap: 64px;
-}
 .cardA {
-  display: inline-block;
-  background: #ddeefe;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1;
+
   border-radius: 12px;
   max-width: 31.25rem;
+  height: 41.8rem;
   padding-left: 2.8rem;
   padding-top: 2.96rem;
 }
 
-.cardB {
-  display: inline-block;
-  background: #d9f6f1;
-  border-radius: 12px;
-  max-width: 31.25rem;
-  padding-top: 2.95rem;
-  padding-left: 2.8rem;
-}
 .head {
   font-size: 29px;
   line-height: 39px;
@@ -48,35 +26,18 @@
   padding-bottom: 1.7rem;
   max-width: 23rem;
 }
-.textB {
-  font-family: "Inter";
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-  padding-bottom: 1.7rem;
-  max-width: 23rem;
-}
+
 .spanA {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 9px;
-  max-width: 16.8rem;
+  max-width: 28rem;
   flex-wrap: wrap;
   padding-bottom: 2.2rem;
-  padding-left: 0.4rem;
 }
-.spanB {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 9px;
-  max-width: 16.8rem;
-  flex-wrap: wrap;
-  padding-bottom: 1.8rem;
-  padding-left: 0.42rem;
-}
-.cards span {
+
+.spanA span {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -92,7 +53,11 @@
   letter-spacing: 0.05em;
   color: #000000;
 }
-.cards a {
+.spanA span:hover {
+  background-color: #fffdfd6c;
+  color: #3c3c3c;
+}
+.cardA a {
   font-family: "Inter";
   font-weight: 600;
   font-size: 20px;
@@ -103,55 +68,24 @@
 .a {
   padding-right: 9.6rem;
   padding-left: 0.11rem;
+  padding-top: 2rem;
 }
-.imgA {
-  position: relative;
-  left: -38px;
-  top: 84px;
+
+a:hover {
+  color: #620c0c6f;
 }
-.imgB {
-  position: relative;
-  left: -39px;
-  top: 42px;
-}
-@media (min-width: 1025px) and (max-width: 1280px) {
-  .cards {
-    margin: 0rem 2rem;
-    flex-direction: inherit;
-    gap: 2rem;
-  }
-  .p {
-    padding: 5.5rem 0rem 2.25rem 0rem;
-    text-align: center;
-  }
+.img {
+  margin-left: -2.5rem;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .cards {
-    margin: 0rem 2rem;
-    flex-direction: inherit;
-    gap: 2rem;
-  }
-
-  .imgA {
-    max-width: 110%;
-    top: 82px;
-    left: -34px;
-  }
-  .imgB {
-    max-width: 110%;
-    top: 40px;
-    left: -34px;
-  }
   .cardA {
     max-width: 26rem;
     padding-left: 1rem;
+    max-width: inherit;
+    margin-left: 2rem;
   }
 
-  .cardB {
-    max-width: 26rem;
-    padding-left: 1rem;
-  }
   .a {
     padding-right: 7rem;
   }
@@ -163,45 +97,28 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .cards {
-    margin: 0rem 2rem;
-    flex-direction: column;
-
-    gap: 6rem;
-  }
-  .imgA {
-    max-width: 110%;
-    top: 40px;
-    left: -34px;
-  }
-  .imgB {
-    max-width: 110%;
-  }
   .cardA {
-    max-width: 26rem;
-    padding-left: 1rem;
-  }
-
-  .cardB {
     max-width: 26rem;
     padding-left: 1rem;
   }
   .a {
     padding-right: 7rem;
   }
-  .p {
-    padding: 5.5rem 0rem 2.25rem 0rem;
-    text-align: center;
+  .img {
+    width: 29rem;
+    margin-top: -1.5rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .cards {
-    margin: 0rem 2rem;
-    flex-direction: column;
-    gap: 8rem;
+  .img {
+    width: 22.4rem;
   }
-  .imgA {
-    top: 44px;
+  .cardA {
+    max-width: 26rem;
+    padding-left: 1rem;
+  }
+  .a {
+    padding-right: 2rem;
   }
 }

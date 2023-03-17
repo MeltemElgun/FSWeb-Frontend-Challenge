@@ -18,7 +18,7 @@
   letter-spacing: 0.01em;
   color: #0a0a14;
   padding-left: 20.4rem;
-  padding-top: 2.51rem;
+  padding-top: 2.7rem;
   padding-right: 0.27rem;
 }
 .content nav {
@@ -29,7 +29,7 @@
   font-style: normal;
   font-size: 24px;
   line-height: 150%;
-  padding-top: 2rem;
+  padding-top: 2.25rem;
   padding-left: 0.8px;
 }
 .git {
@@ -48,6 +48,19 @@
   text-decoration: none;
   color: #af0c48;
 }
+
+.git:hover {
+  font-size: 150%;
+}
+.perBlog:hover {
+  font-size: 150%;
+}
+.link:hover {
+  font-size: 150%;
+}
+.email:hover {
+  font-size: 150%;
+}
 @media (min-width: 1025px) and (max-width: 1280px) {
   .content p {
     flex-basis: 50%;
@@ -63,6 +76,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    padding-top: 8.5rem;
+    display: flex;
+    gap: 3.6rem;
+    padding-bottom: 11.5rem;
+  }
   .content p {
     flex-basis: 50%;
     padding-left: 10rem;
@@ -77,15 +96,16 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .content {
+    flex-direction: column;
+  }
   .content p {
-    flex-basis: 50%;
     padding-left: 2rem;
     padding-top: 0.6rem;
     text-align: start;
   }
   .content nav {
-    flex-basis: 50%;
-    padding-left: 0px;
+    align-items: center;
   }
   .content {
     gap: 2rem;
@@ -97,19 +117,19 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .content p {
-    flex-basis: 50%;
-    padding-left: 2rem;
+    font-size: 32px;
+    padding-left: 0;
     padding-top: 0.6rem;
-    text-align: start;
+    text-align: center;
   }
   .content nav {
-    flex-basis: 50%;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    align-items: center;
   }
   .content {
-    gap: 2rem;
+    flex-direction: column;
   }
   .content {
-    padding-bottom: 4.5rem;
+    padding-bottom: 4rem;
   }
 }

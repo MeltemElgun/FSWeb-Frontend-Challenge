@@ -3,12 +3,12 @@ import introduce from "./Introduce.module.css";
 
 export default function Introduce() {
   return (
-    <div className={introduce.box}>
+    <header className={introduce.box}>
       <div className={introduce.content}>
         <div className={introduce.text}>
           <p className={introduce.p1}>Hi!👋</p>
           <p className={introduce.p2}>
-            I’m Almila. I’m a full-stack developer. I can craft solid and
+            I’m Meltem Elgun. I’m a full-stack developer. I can craft solid and
             scalable frontend products.
             <br /> Let’s meet!
           </p>
@@ -27,13 +27,13 @@ export default function Introduce() {
             <p className={introduce.p3}>
               Currently <span className={introduce.red}>Freelancing</span> for{" "}
               <span className={introduce.red}>UX, UI, & Web Design</span>{" "}
-              Project . Invite me to join your team -{" "}
+              Project . Invite me to join your team →
               <a
                 className={introduce.mail}
                 target="_blank"
                 href="mailto:meltemelgun1@gmail.com"
               >
-                pratamaiosi@gmail.com
+                meltemelgun1@gmail.com
               </a>
             </p>
           </div>
@@ -42,6 +42,6 @@ export default function Introduce() {
           <img className={introduce.img} src="Img.png" alt="Img" />
         </div>
       </div>
-    </div>
+    </header>
   );
 }

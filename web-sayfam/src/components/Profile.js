@@ -2,11 +2,10 @@ import React from "react";
 import profile from "./Profile.module.css";
 export default function Profile() {
   return (
-    <div className={profile.box}>
-      {" "}
+    <main className={profile.box}>
       <p className={profile.p}>Profile</p>
       <div className={profile.contents}>
-        <div className={profile.content}>
+        <section className={profile.content}>
           <div className={profile.card}>
             <p className={profile.text}>Basic Information</p>{" "}
             <div className={profile.cardText}>
@@ -17,18 +16,18 @@ export default function Profile() {
                 <p className={profile.span1}>Tercih Ettiği Rol</p>
               </div>
               <div className={profile.cardTextB}>
-                <p>24.03.1996</p>
-                <p>Ankara</p>
+                <p>06.10.1994</p>
+                <p>Erzurum</p>
                 <p className={profile.span2}>
                   {" "}
-                  Hacettepe Ünv. Biyoloji Lisans, 2016
+                  Atatürk Ünv. Kentsel Tasarım Y.Lisans, 2023
                 </p>
-                <p>Frontend, UI</p>
+                <p>Frontend, UI, Backend</p>
               </div>
             </div>
           </div>
-        </div>
-        <div className={profile.content}>
+        </section>
+        <section className={profile.content}>
           <div className={profile.abountText}>
             <p className={profile.aboutTextA}>About me</p>
             <p className={profile.aboutTextB}>
@@ -39,8 +38,8 @@ export default function Profile() {
               quod deserunt quam temporibus cumque magnam!
             </p>
           </div>
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
   );
 }
